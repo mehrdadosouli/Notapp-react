@@ -1,0 +1,58 @@
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.header {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 2rem;
+}
+.colors {
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+  width: 100%;
+  .color {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(17, 0, 255);
+  }
+}
+.title {
+  width: 100%;
+  border-radius: 0.3rem;
+  padding: 7px;
+  border: none;
+  box-shadow: 0 0 3px 1px gray;
+  font-size: 18px;
+}
+.title:focus {
+  outline: none;
+}
+.addbtn {
+  width: 100%;
+  padding: 1rem;
+  background-color: rgba(15, 33, 92, 0.479);
+}
+.allNotebox {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .note {
+    width: 30%;
+    display: flex;
+    flex-basis: 49%;
+    padding: 2rem;
+    border: 2px solid gray;
+    margin-bottom: 2rem;
+  }
+}
